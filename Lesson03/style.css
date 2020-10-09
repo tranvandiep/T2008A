@@ -1,0 +1,58 @@
+body {
+	background-image: url('https://media.ed.edmunds-media.com/rolls-royce/phantom/2018/oem/2018_rolls-royce_phantom_sedan_base_fq_oem_2_1600.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.text-red {
+	color: red !important;
+}
+
+h1, ul {
+	color: white;
+	text-align: center;
+	text-transform: capitalize;
+	text-decoration: underline;
+}
+
+h1:hover {
+	background-color: red;
+}
+
+h1:active {
+	background-color: yellow;
+}
+
+img {
+	width: 250px; 
+	min-width: 500px; 
+	max-width: 1000px;
+}
+
+ul {
+	color: yellow;
+	font-size: 20px
+}
+
+.text-white {
+	color: white;
+}
+
+#li_abc {
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+p {
+	color: white;
+	text-align: justify;
+	width: 400px;
+	/*margin-left: 20%;*/
+	margin: 10%;
+	padding: 50px;
+	padding-left: 100px;
+	border: solid blue 5px;
+	text-indent: 100px;
+	word-spacing: 5px;
+}
+/*tag => class => id*/
